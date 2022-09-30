@@ -121,12 +121,11 @@ EOF
 
 sleep 15
 
-
 ### 5. Verify that the probe pod is running.
 oc get pods -l app.kubernetes.io/instance=$PROBE_SEVONE_INSTANCE -n $IRC_NAMESPACE
 
 ### 5.1. PATCH serviceaccount
-# oc patch -n $IRC_NAMESPACE serviceaccount sevone-probe-mb-webhook-sa -p '{"imagePullSecrets": [{"name": "ibm-entitlement-key-secret"}]}'
+oc patch -n $IRC_NAMESPACE serviceaccount $PROBE_INSTANCE-mb-webhook-sa -p '{"imagePullSecrets": [{"name": "ibm-entitlement-key-secret"}]}'
 
 
 echo "-----------------------------------"
