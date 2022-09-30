@@ -11,3 +11,11 @@
 ### Installing Watson AIOps Infra Automation 3.5 on ROKS 
 
 3. [./Installing Watson AIOps Infra Automation 3.5 on ROKS](./03-install-infra-automation-on-roks)
+
+### Installing SevOne Probe WebHook in Watson AIOps AI Manager
+
+4. [04-install-sevone-probe-aimgr](./04-install-sevone-probe-aimgr).
+
+### Installing Generic WebHook in Watson AIOps AI Manager
+
+5. [05-install-webhook-aimgr](./05-install-webhook-aimgr).

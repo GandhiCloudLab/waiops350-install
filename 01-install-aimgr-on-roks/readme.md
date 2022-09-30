@@ -66,4 +66,4 @@ The script is based out of https://www.ibm.com/docs/en/cloud-paks/cloud-pak-wats
 
 ## Note
 
-This script can be installed on top existing Watson AIOps Infra Automation 3.4.
+This script can be installed on top existing Watson AIOps Infra Automation 3.5.

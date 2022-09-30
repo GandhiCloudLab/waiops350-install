@@ -74,4 +74,4 @@ The script is based out of the following.
 https://www.ibm.com/docs/en/cloud-paks/cloud-pak-watson-aiops/3.5.0?topic=automation-online-installation
 ## Note
 
-This script can be installed on top existing IBM Watson AIOps AI Manager 3.4.0 instance.
+This script can be installed on top existing IBM Watson AIOps AI Manager 3.5.0 instance.
